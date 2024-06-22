@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!--static video without any controls--> 
+  <video src="assets/vid.mp4" alt="Youtube" height="300px" />
+    
+  <!--we can see all the controls and video can also be played-->
+  <video src="assets/vid.mp4" alt="Youtube" height="300px" controls />
+
+  <!--aurto play will not happen because it make the user experience bad-->
+  <video src="assets/vid.mp4" alt="Youtube" height="300px" autoplay controls loop />
+  
+  <!--So as we muted the video the video start playing in autoplay mode-->
+  <video src="assets/vid.mp4" alt="Youtube" height="300px" autoplay controls loop muted />
+  
+</body>
+</html>
